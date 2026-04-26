@@ -12,7 +12,8 @@ body {
 
   padding: 25px;
   margin-bottom: 6px;
-  border: 1px solid red  
+  border: 1px solid red;
+  margin-bottom: 50px 
 }
 .main-nav{
   display: flex;
@@ -51,6 +52,18 @@ a:hover{
     background-color: white;
 }
 
-.option-btn:hover {
+.option-btn:hover, .next-btn:hover {
     background-color: #f0f0f0;
+}
+.option-btn:active, .next-btn:active {
+    background-color: #b3a7a7;
+}
+.next-btn{
+  margin-left: 5px;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
 }
